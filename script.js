@@ -30,7 +30,7 @@ const ring = document.getElementById("ring");
 let bgm = document.getElementById("bgm");
 if (!bgm) {                                   // safety: create the player if the HTML tag is missing
   bgm = document.createElement("audio");
-  bgm.src = "music.mp3";
+  bgm.src = "Bride_And_Prejudice_Sonu_Nigam_Gayatri_Lyer_-_Balle_Balle_Punjabi_Wedding_Song__mp3_pm_.mp3";
   bgm.preload = "auto";
   bgm.setAttribute("playsinline", "");
   document.body.appendChild(bgm);
